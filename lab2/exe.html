@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab 2 Exercise Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="./exe.php" method="POST">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Your name" /><br />
+      <label for="class">Class</label>
+      <input
+        type="text"
+        id="class"
+        name="class"
+        placeholder="Your class"
+      /><br />
+      <label for="class">University</label>
+      <input
+        type="text"
+        id="university"
+        name="university"
+        placeholder="Your university"
+      /><br />
+      <label for="">Select your hoppy: </label> <br />
+      <input type="checkbox" id="hobby1" name="hobby[]" value="Eating">
+      <label for="hobby1"> Eating</label><br>
+      <input type="checkbox" id="hobby2" name="hobby[]" value="Playing video games">
+      <label for="hobby2"> Playing video games</label><br>
+      <input type="checkbox" id="hobby3" name="hobby[]" value="Watching movie">
+      <label for="hobby3"> Watching movie</label>
+      <br>
+      <button type="submit">Gửi</button>
+    </form>
+  </body>
+</html>
